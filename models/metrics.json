@@ -1,0 +1,3878 @@
+{
+  "model_comparison": {
+    "Logistic Regression": {
+      "test_metrics": {
+        "accuracy": 0.8689,
+        "precision": 0.8125,
+        "recall": 0.9286,
+        "f1_score": 0.8667,
+        "roc_auc": 0.9513,
+        "specificity": 0.8182
+      },
+      "confusion_matrix": {
+        "matrix": [
+          [
+            27,
+            6
+          ],
+          [
+            2,
+            26
+          ]
+        ],
+        "tn": 27,
+        "fp": 6,
+        "fn": 2,
+        "tp": 26,
+        "total": 61
+      },
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.0357
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.1786
+        },
+        {
+          "fpr": 0.0303,
+          "tpr": 0.1786
+        },
+        {
+          "fpr": 0.0303,
+          "tpr": 0.7857
+        },
+        {
+          "fpr": 0.0606,
+          "tpr": 0.7857
+        },
+        {
+          "fpr": 0.0606,
+          "tpr": 0.8929
+        },
+        {
+          "fpr": 0.1515,
+          "tpr": 0.8929
+        },
+        {
+          "fpr": 0.1515,
+          "tpr": 0.9286
+        },
+        {
+          "fpr": 0.2424,
+          "tpr": 0.9286
+        },
+        {
+          "fpr": 0.2424,
+          "tpr": 0.9643
+        },
+        {
+          "fpr": 0.2727,
+          "tpr": 0.9643
+        },
+        {
+          "fpr": 0.2727,
+          "tpr": 1.0
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ],
+      "cv_metrics": {
+        "accuracy_mean": 0.8304421768707483,
+        "accuracy_std": 0.024781835348260308,
+        "precision_mean": 0.8453264234755686,
+        "precision_std": 0.03442154475962983,
+        "recall_mean": 0.773913043478261,
+        "recall_std": 0.06598068123361654,
+        "f1_mean": 0.8057615202047863,
+        "f1_std": 0.0349042065195635,
+        "roc_auc_mean": 0.8997455040933302,
+        "roc_auc_std": 0.016536609685266553
+      }
+    },
+    "SVM": {
+      "test_metrics": {
+        "accuracy": 0.8525,
+        "precision": 0.7879,
+        "recall": 0.9286,
+        "f1_score": 0.8525,
+        "roc_auc": 0.947,
+        "specificity": 0.7879
+      },
+      "confusion_matrix": {
+        "matrix": [
+          [
+            26,
+            7
+          ],
+          [
+            2,
+            26
+          ]
+        ],
+        "tn": 26,
+        "fp": 7,
+        "fn": 2,
+        "tp": 26,
+        "total": 61
+      },
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.0357
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.1786
+        },
+        {
+          "fpr": 0.0303,
+          "tpr": 0.1786
+        },
+        {
+          "fpr": 0.0303,
+          "tpr": 0.7857
+        },
+        {
+          "fpr": 0.0606,
+          "tpr": 0.7857
+        },
+        {
+          "fpr": 0.0606,
+          "tpr": 0.8929
+        },
+        {
+          "fpr": 0.1818,
+          "tpr": 0.8929
+        },
+        {
+          "fpr": 0.1818,
+          "tpr": 0.9286
+        },
+        {
+          "fpr": 0.2424,
+          "tpr": 0.9286
+        },
+        {
+          "fpr": 0.2424,
+          "tpr": 0.9643
+        },
+        {
+          "fpr": 0.3636,
+          "tpr": 0.9643
+        },
+        {
+          "fpr": 0.3636,
+          "tpr": 1.0
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ],
+      "cv_metrics": {
+        "accuracy_mean": 0.8263605442176871,
+        "accuracy_std": 0.03113870806846482,
+        "precision_mean": 0.8415970261622437,
+        "precision_std": 0.051221854212292355,
+        "recall_mean": 0.773913043478261,
+        "recall_std": 0.10471399402174476,
+        "f1_mean": 0.7995921952443692,
+        "f1_std": 0.05167247940955016,
+        "roc_auc_mean": 0.8856035269078747,
+        "roc_auc_std": 0.025339272218361426
+      }
+    },
+    "Random Forest": {
+      "test_metrics": {
+        "accuracy": 0.9016,
+        "precision": 0.8667,
+        "recall": 0.9286,
+        "f1_score": 0.8966,
+        "roc_auc": 0.9556,
+        "specificity": 0.8788
+      },
+      "confusion_matrix": {
+        "matrix": [
+          [
+            29,
+            4
+          ],
+          [
+            2,
+            26
+          ]
+        ],
+        "tn": 29,
+        "fp": 4,
+        "fn": 2,
+        "tp": 26,
+        "total": 61
+      },
+      "roc_curve": [
+        {
+          "fpr": 0.0,
+          "tpr": 0.0
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.0357
+        },
+        {
+          "fpr": 0.0,
+          "tpr": 0.2857
+        },
+        {
+          "fpr": 0.0303,
+          "tpr": 0.2857
+        },
+        {
+          "fpr": 0.0303,
+          "tpr": 0.7143
+        },
+        {
+          "fpr": 0.0606,
+          "tpr": 0.7143
+        },
+        {
+          "fpr": 0.0606,
+          "tpr": 0.8571
+        },
+        {
+          "fpr": 0.0909,
+          "tpr": 0.8571
+        },
+        {
+          "fpr": 0.0909,
+          "tpr": 0.9286
+        },
+        {
+          "fpr": 0.1212,
+          "tpr": 0.9286
+        },
+        {
+          "fpr": 0.1212,
+          "tpr": 0.9643
+        },
+        {
+          "fpr": 0.3333,
+          "tpr": 0.9643
+        },
+        {
+          "fpr": 0.3333,
+          "tpr": 1.0
+        },
+        {
+          "fpr": 1.0,
+          "tpr": 1.0
+        }
+      ],
+      "cv_metrics": {
+        "accuracy_mean": 0.8055272108843538,
+        "accuracy_std": 0.02659213605969823,
+        "precision_mean": 0.821765010351967,
+        "precision_std": 0.06675411477819922,
+        "recall_mean": 0.7470355731225297,
+        "recall_std": 0.06357373000939472,
+        "f1_mean": 0.7784710765792134,
+        "f1_std": 0.02963617646491279,
+        "roc_auc_mean": 0.884226321182843,
+        "roc_auc_std": 0.02910188543828765
+      }
+    }
+  },
+  "feature_importances": {
+    "Random Forest": [
+      {
+        "feature": "thal",
+        "importance": 0.1961
+      },
+      {
+        "feature": "cp",
+        "importance": 0.1433
+      },
+      {
+        "feature": "ca",
+        "importance": 0.1164
+      },
+      {
+        "feature": "thalach",
+        "importance": 0.1075
+      },
+      {
+        "feature": "oldpeak",
+        "importance": 0.0902
+      },
+      {
+        "feature": "exang",
+        "importance": 0.068
+      },
+      {
+        "feature": "age",
+        "importance": 0.0603
+      },
+      {
+        "feature": "trestbps",
+        "importance": 0.0595
+      },
+      {
+        "feature": "chol",
+        "importance": 0.0505
+      },
+      {
+        "feature": "slope",
+        "importance": 0.0459
+      },
+      {
+        "feature": "sex",
+        "importance": 0.0423
+      },
+      {
+        "feature": "restecg",
+        "importance": 0.0155
+      },
+      {
+        "feature": "fbs",
+        "importance": 0.0047
+      }
+    ],
+    "Logistic Regression": [
+      {
+        "feature": "ca",
+        "importance": 1.089,
+        "coefficient": 1.089,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "thal",
+        "importance": 0.6858,
+        "coefficient": 0.6858,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "sex",
+        "importance": 0.6498,
+        "coefficient": 0.6498,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "cp",
+        "importance": 0.5393,
+        "coefficient": 0.5393,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "exang",
+        "importance": 0.3776,
+        "coefficient": 0.3776,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "slope",
+        "importance": 0.3555,
+        "coefficient": 0.3555,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "thalach",
+        "importance": 0.3477,
+        "coefficient": -0.3477,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "trestbps",
+        "importance": 0.302,
+        "coefficient": 0.302,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "restecg",
+        "importance": 0.2162,
+        "coefficient": 0.2162,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "chol",
+        "importance": 0.2047,
+        "coefficient": 0.2047,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "fbs",
+        "importance": 0.2034,
+        "coefficient": -0.2034,
+        "direction": "decreases_risk"
+      },
+      {
+        "feature": "oldpeak",
+        "importance": 0.1551,
+        "coefficient": 0.1551,
+        "direction": "increases_risk"
+      },
+      {
+        "feature": "age",
+        "importance": 0.0914,
+        "coefficient": -0.0914,
+        "direction": "decreases_risk"
+      }
+    ],
+    "SVM": [
+      {
+        "feature": "ca",
+        "importance": 0.4018
+      },
+      {
+        "feature": "cp",
+        "importance": 0.2411
+      },
+      {
+        "feature": "oldpeak",
+        "importance": 0.1161
+      },
+      {
+        "feature": "thalach",
+        "importance": 0.1161
+      },
+      {
+        "feature": "thal",
+        "importance": 0.0982
+      },
+      {
+        "feature": "age",
+        "importance": 0.0179
+      },
+      {
+        "feature": "chol",
+        "importance": 0.0089
+      },
+      {
+        "feature": "sex",
+        "importance": 0.0
+      },
+      {
+        "feature": "trestbps",
+        "importance": 0.0
+      },
+      {
+        "feature": "fbs",
+        "importance": 0.0
+      },
+      {
+        "feature": "restecg",
+        "importance": 0.0
+      },
+      {
+        "feature": "exang",
+        "importance": 0.0
+      },
+      {
+        "feature": "slope",
+        "importance": 0.0
+      }
+    ]
+  },
+  "visual_analytics": {
+    "correlation": {
+      "age": {
+        "age": 1.0,
+        "sex": -0.098,
+        "cp": 0.104,
+        "trestbps": 0.285,
+        "chol": 0.209,
+        "fbs": 0.119,
+        "restecg": 0.149,
+        "thalach": -0.394,
+        "exang": 0.092,
+        "oldpeak": 0.204,
+        "slope": 0.162,
+        "ca": 0.365,
+        "thal": 0.122,
+        "target": 0.223
+      },
+      "sex": {
+        "age": -0.098,
+        "sex": 1.0,
+        "cp": 0.01,
+        "trestbps": -0.064,
+        "chol": -0.2,
+        "fbs": 0.048,
+        "restecg": 0.022,
+        "thalach": -0.049,
+        "exang": 0.146,
+        "oldpeak": 0.102,
+        "slope": 0.038,
+        "ca": 0.086,
+        "thal": 0.368,
+        "target": 0.277
+      },
+      "cp": {
+        "age": 0.104,
+        "sex": 0.01,
+        "cp": 1.0,
+        "trestbps": -0.036,
+        "chol": 0.072,
+        "fbs": -0.04,
+        "restecg": 0.068,
+        "thalach": -0.334,
+        "exang": 0.384,
+        "oldpeak": 0.202,
+        "slope": 0.152,
+        "ca": 0.233,
+        "thal": 0.26,
+        "target": 0.414
+      },
+      "trestbps": {
+        "age": 0.285,
+        "sex": -0.064,
+        "cp": -0.036,
+        "trestbps": 1.0,
+        "chol": 0.13,
+        "fbs": 0.175,
+        "restecg": 0.147,
+        "thalach": -0.045,
+        "exang": 0.065,
+        "oldpeak": 0.189,
+        "slope": 0.117,
+        "ca": 0.098,
+        "thal": 0.127,
+        "target": 0.151
+      },
+      "chol": {
+        "age": 0.209,
+        "sex": -0.2,
+        "cp": 0.072,
+        "trestbps": 0.13,
+        "chol": 1.0,
+        "fbs": 0.01,
+        "restecg": 0.171,
+        "thalach": -0.003,
+        "exang": 0.061,
+        "oldpeak": 0.047,
+        "slope": -0.004,
+        "ca": 0.124,
+        "thal": 0.03,
+        "target": 0.085
+      },
+      "fbs": {
+        "age": 0.119,
+        "sex": 0.048,
+        "cp": -0.04,
+        "trestbps": 0.175,
+        "chol": 0.01,
+        "fbs": 1.0,
+        "restecg": 0.07,
+        "thalach": -0.008,
+        "exang": 0.026,
+        "oldpeak": 0.006,
+        "slope": 0.06,
+        "ca": 0.141,
+        "thal": 0.054,
+        "target": 0.025
+      },
+      "restecg": {
+        "age": 0.149,
+        "sex": 0.022,
+        "cp": 0.068,
+        "trestbps": 0.147,
+        "chol": 0.171,
+        "fbs": 0.07,
+        "restecg": 1.0,
+        "thalach": -0.083,
+        "exang": 0.085,
+        "oldpeak": 0.114,
+        "slope": 0.134,
+        "ca": 0.132,
+        "thal": 0.019,
+        "target": 0.169
+      },
+      "thalach": {
+        "age": -0.394,
+        "sex": -0.049,
+        "cp": -0.334,
+        "trestbps": -0.045,
+        "chol": -0.003,
+        "fbs": -0.008,
+        "restecg": -0.083,
+        "thalach": 1.0,
+        "exang": -0.378,
+        "oldpeak": -0.343,
+        "slope": -0.386,
+        "ca": -0.266,
+        "thal": -0.258,
+        "target": -0.417
+      },
+      "exang": {
+        "age": 0.092,
+        "sex": 0.146,
+        "cp": 0.384,
+        "trestbps": 0.065,
+        "chol": 0.061,
+        "fbs": 0.026,
+        "restecg": 0.085,
+        "thalach": -0.378,
+        "exang": 1.0,
+        "oldpeak": 0.288,
+        "slope": 0.258,
+        "ca": 0.146,
+        "thal": 0.322,
+        "target": 0.432
+      },
+      "oldpeak": {
+        "age": 0.204,
+        "sex": 0.102,
+        "cp": 0.202,
+        "trestbps": 0.189,
+        "chol": 0.047,
+        "fbs": 0.006,
+        "restecg": 0.114,
+        "thalach": -0.343,
+        "exang": 0.288,
+        "oldpeak": 1.0,
+        "slope": 0.578,
+        "ca": 0.301,
+        "thal": 0.334,
+        "target": 0.425
+      },
+      "slope": {
+        "age": 0.162,
+        "sex": 0.038,
+        "cp": 0.152,
+        "trestbps": 0.117,
+        "chol": -0.004,
+        "fbs": 0.06,
+        "restecg": 0.134,
+        "thalach": -0.386,
+        "exang": 0.258,
+        "oldpeak": 0.578,
+        "slope": 1.0,
+        "ca": 0.111,
+        "thal": 0.268,
+        "target": 0.339
+      },
+      "ca": {
+        "age": 0.365,
+        "sex": 0.086,
+        "cp": 0.233,
+        "trestbps": 0.098,
+        "chol": 0.124,
+        "fbs": 0.141,
+        "restecg": 0.132,
+        "thalach": -0.266,
+        "exang": 0.146,
+        "oldpeak": 0.301,
+        "slope": 0.111,
+        "ca": 1.0,
+        "thal": 0.248,
+        "target": 0.46
+      },
+      "thal": {
+        "age": 0.122,
+        "sex": 0.368,
+        "cp": 0.26,
+        "trestbps": 0.127,
+        "chol": 0.03,
+        "fbs": 0.054,
+        "restecg": 0.019,
+        "thalach": -0.258,
+        "exang": 0.322,
+        "oldpeak": 0.334,
+        "slope": 0.268,
+        "ca": 0.248,
+        "thal": 1.0,
+        "target": 0.516
+      },
+      "target": {
+        "age": 0.223,
+        "sex": 0.277,
+        "cp": 0.414,
+        "trestbps": 0.151,
+        "chol": 0.085,
+        "fbs": 0.025,
+        "restecg": 0.169,
+        "thalach": -0.417,
+        "exang": 0.432,
+        "oldpeak": 0.425,
+        "slope": 0.339,
+        "ca": 0.46,
+        "thal": 0.516,
+        "target": 1.0
+      }
+    },
+    "cp_stats": [
+      {
+        "code": 0,
+        "label": "Typical Angina",
+        "total": 23,
+        "disease_count": 7,
+        "rate": 0.304
+      },
+      {
+        "code": 1,
+        "label": "Atypical Angina",
+        "total": 50,
+        "disease_count": 9,
+        "rate": 0.18
+      },
+      {
+        "code": 2,
+        "label": "Non-anginal Pain",
+        "total": 86,
+        "disease_count": 18,
+        "rate": 0.209
+      },
+      {
+        "code": 3,
+        "label": "Asymptomatic",
+        "total": 144,
+        "disease_count": 105,
+        "rate": 0.729
+      }
+    ],
+    "sex_stats": [
+      {
+        "sex": "Female",
+        "total": 97,
+        "disease_count": 25,
+        "rate": 0.258
+      },
+      {
+        "sex": "Male",
+        "total": 206,
+        "disease_count": 114,
+        "rate": 0.553
+      }
+    ],
+    "age_stats": [
+      {
+        "group": "25-40",
+        "total": 18,
+        "disease": 6,
+        "healthy": 12,
+        "rate": 0.333
+      },
+      {
+        "group": "41-50",
+        "total": 76,
+        "disease": 23,
+        "healthy": 53,
+        "rate": 0.303
+      },
+      {
+        "group": "51-60",
+        "total": 130,
+        "disease": 66,
+        "healthy": 64,
+        "rate": 0.508
+      },
+      {
+        "group": "61-70",
+        "total": 73,
+        "disease": 43,
+        "healthy": 30,
+        "rate": 0.589
+      },
+      {
+        "group": "71+",
+        "total": 6,
+        "disease": 1,
+        "healthy": 5,
+        "rate": 0.167
+      }
+    ],
+    "scatter_age_thalach": [
+      {
+        "age": 63,
+        "thalach": 150,
+        "target": 0
+      },
+      {
+        "age": 67,
+        "thalach": 108,
+        "target": 1
+      },
+      {
+        "age": 67,
+        "thalach": 129,
+        "target": 1
+      },
+      {
+        "age": 37,
+        "thalach": 187,
+        "target": 0
+      },
+      {
+        "age": 41,
+        "thalach": 172,
+        "target": 0
+      },
+      {
+        "age": 56,
+        "thalach": 178,
+        "target": 0
+      },
+      {
+        "age": 62,
+        "thalach": 160,
+        "target": 1
+      },
+      {
+        "age": 57,
+        "thalach": 163,
+        "target": 0
+      },
+      {
+        "age": 63,
+        "thalach": 147,
+        "target": 1
+      },
+      {
+        "age": 53,
+        "thalach": 155,
+        "target": 1
+      },
+      {
+        "age": 57,
+        "thalach": 148,
+        "target": 0
+      },
+      {
+        "age": 56,
+        "thalach": 153,
+        "target": 0
+      },
+      {
+        "age": 56,
+        "thalach": 142,
+        "target": 1
+      },
+      {
+        "age": 44,
+        "thalach": 173,
+        "target": 0
+      },
+      {
+        "age": 52,
+        "thalach": 162,
+        "target": 0
+      },
+      {
+        "age": 57,
+        "thalach": 174,
+        "target": 0
+      },
+      {
+        "age": 48,
+        "thalach": 168,
+        "target": 1
+      },
+      {
+        "age": 54,
+        "thalach": 160,
+        "target": 0
+      },
+      {
+        "age": 48,
+        "thalach": 139,
+        "target": 0
+      },
+      {
+        "age": 49,
+        "thalach": 171,
+        "target": 0
+      },
+      {
+        "age": 64,
+        "thalach": 144,
+        "target": 0
+      },
+      {
+        "age": 58,
+        "thalach": 162,
+        "target": 0
+      },
+      {
+        "age": 58,
+        "thalach": 160,
+        "target": 1
+      },
+      {
+        "age": 58,
+        "thalach": 173,
+        "target": 1
+      },
+      {
+        "age": 60,
+        "thalach": 132,
+        "target": 1
+      },
+      {
+        "age": 50,
+        "thalach": 158,
+        "target": 0
+      },
+      {
+        "age": 58,
+        "thalach": 172,
+        "target": 0
+      },
+      {
+        "age": 66,
+        "thalach": 114,
+        "target": 0
+      },
+      {
+        "age": 43,
+        "thalach": 171,
+        "target": 0
+      },
+      {
+        "age": 40,
+        "thalach": 114,
+        "target": 1
+      },
+      {
+        "age": 69,
+        "thalach": 151,
+        "target": 0
+      },
+      {
+        "age": 60,
+        "thalach": 160,
+        "target": 1
+      },
+      {
+        "age": 64,
+        "thalach": 158,
+        "target": 1
+      },
+      {
+        "age": 59,
+        "thalach": 161,
+        "target": 0
+      },
+      {
+        "age": 44,
+        "thalach": 179,
+        "target": 0
+      },
+      {
+        "age": 42,
+        "thalach": 178,
+        "target": 0
+      },
+      {
+        "age": 43,
+        "thalach": 120,
+        "target": 1
+      },
+      {
+        "age": 57,
+        "thalach": 112,
+        "target": 1
+      },
+      {
+        "age": 55,
+        "thalach": 132,
+        "target": 1
+      },
+      {
+        "age": 61,
+        "thalach": 137,
+        "target": 0
+      },
+      {
+        "age": 65,
+        "thalach": 114,
+        "target": 1
+      },
+      {
+        "age": 40,
+        "thalach": 178,
+        "target": 0
+      },
+      {
+        "age": 71,
+        "thalach": 162,
+        "target": 0
+      },
+      {
+        "age": 59,
+        "thalach": 157,
+        "target": 0
+      },
+      {
+        "age": 61,
+        "thalach": 169,
+        "target": 1
+      },
+      {
+        "age": 58,
+        "thalach": 165,
+        "target": 1
+      },
+      {
+        "age": 51,
+        "thalach": 123,
+        "target": 0
+      },
+      {
+        "age": 50,
+        "thalach": 128,
+        "target": 1
+      },
+      {
+        "age": 65,
+        "thalach": 157,
+        "target": 0
+      },
+      {
+        "age": 53,
+        "thalach": 152,
+        "target": 0
+      },
+      {
+        "age": 41,
+        "thalach": 168,
+        "target": 0
+      },
+      {
+        "age": 65,
+        "thalach": 140,
+        "target": 0
+      },
+      {
+        "age": 44,
+        "thalach": 153,
+        "target": 1
+      },
+      {
+        "age": 44,
+        "thalach": 188,
+        "target": 0
+      },
+      {
+        "age": 60,
+        "thalach": 144,
+        "target": 1
+      },
+      {
+        "age": 54,
+        "thalach": 109,
+        "target": 1
+      },
+      {
+        "age": 50,
+        "thalach": 163,
+        "target": 1
+      },
+      {
+        "age": 41,
+        "thalach": 158,
+        "target": 1
+      },
+      {
+        "age": 54,
+        "thalach": 152,
+        "target": 0
+      },
+      {
+        "age": 51,
+        "thalach": 125,
+        "target": 0
+      },
+      {
+        "age": 51,
+        "thalach": 142,
+        "target": 1
+      },
+      {
+        "age": 46,
+        "thalach": 160,
+        "target": 0
+      },
+      {
+        "age": 58,
+        "thalach": 131,
+        "target": 1
+      },
+      {
+        "age": 54,
+        "thalach": 170,
+        "target": 0
+      },
+      {
+        "age": 54,
+        "thalach": 113,
+        "target": 1
+      },
+      {
+        "age": 60,
+        "thalach": 142,
+        "target": 1
+      },
+      {
+        "age": 60,
+        "thalach": 155,
+        "target": 1
+      },
+      {
+        "age": 54,
+        "thalach": 165,
+        "target": 0
+      },
+      {
+        "age": 59,
+        "thalach": 140,
+        "target": 1
+      },
+      {
+        "age": 46,
+        "thalach": 147,
+        "target": 1
+      },
+      {
+        "age": 65,
+        "thalach": 148,
+        "target": 0
+      },
+      {
+        "age": 67,
+        "thalach": 163,
+        "target": 1
+      },
+      {
+        "age": 62,
+        "thalach": 99,
+        "target": 1
+      },
+      {
+        "age": 65,
+        "thalach": 158,
+        "target": 1
+      },
+      {
+        "age": 44,
+        "thalach": 177,
+        "target": 1
+      },
+      {
+        "age": 65,
+        "thalach": 151,
+        "target": 0
+      },
+      {
+        "age": 60,
+        "thalach": 141,
+        "target": 1
+      },
+      {
+        "age": 51,
+        "thalach": 142,
+        "target": 0
+      },
+      {
+        "age": 48,
+        "thalach": 180,
+        "target": 0
+      },
+      {
+        "age": 58,
+        "thalach": 111,
+        "target": 1
+      },
+      {
+        "age": 45,
+        "thalach": 148,
+        "target": 0
+      },
+      {
+        "age": 53,
+        "thalach": 143,
+        "target": 0
+      },
+      {
+        "age": 39,
+        "thalach": 182,
+        "target": 0
+      },
+      {
+        "age": 68,
+        "thalach": 150,
+        "target": 1
+      },
+      {
+        "age": 52,
+        "thalach": 172,
+        "target": 0
+      },
+      {
+        "age": 44,
+        "thalach": 180,
+        "target": 0
+      },
+      {
+        "age": 47,
+        "thalach": 156,
+        "target": 0
+      },
+      {
+        "age": 53,
+        "thalach": 115,
+        "target": 0
+      },
+      {
+        "age": 53,
+        "thalach": 160,
+        "target": 0
+      },
+      {
+        "age": 51,
+        "thalach": 149,
+        "target": 0
+      },
+      {
+        "age": 66,
+        "thalach": 151,
+        "target": 0
+      },
+      {
+        "age": 62,
+        "thalach": 145,
+        "target": 1
+      },
+      {
+        "age": 62,
+        "thalach": 146,
+        "target": 0
+      },
+      {
+        "age": 44,
+        "thalach": 175,
+        "target": 0
+      },
+      {
+        "age": 63,
+        "thalach": 172,
+        "target": 0
+      },
+      {
+        "age": 52,
+        "thalach": 161,
+        "target": 1
+      },
+      {
+        "age": 59,
+        "thalach": 142,
+        "target": 1
+      },
+      {
+        "age": 60,
+        "thalach": 157,
+        "target": 1
+      },
+      {
+        "age": 52,
+        "thalach": 158,
+        "target": 0
+      },
+      {
+        "age": 48,
+        "thalach": 186,
+        "target": 0
+      },
+      {
+        "age": 45,
+        "thalach": 185,
+        "target": 0
+      },
+      {
+        "age": 34,
+        "thalach": 174,
+        "target": 0
+      },
+      {
+        "age": 57,
+        "thalach": 159,
+        "target": 0
+      },
+      {
+        "age": 71,
+        "thalach": 130,
+        "target": 0
+      },
+      {
+        "age": 49,
+        "thalach": 139,
+        "target": 1
+      },
+      {
+        "age": 54,
+        "thalach": 156,
+        "target": 0
+      },
+      {
+        "age": 59,
+        "thalach": 162,
+        "target": 1
+      },
+      {
+        "age": 57,
+        "thalach": 150,
+        "target": 1
+      },
+      {
+        "age": 61,
+        "thalach": 140,
+        "target": 1
+      },
+      {
+        "age": 39,
+        "thalach": 140,
+        "target": 1
+      },
+      {
+        "age": 61,
+        "thalach": 146,
+        "target": 1
+      },
+      {
+        "age": 56,
+        "thalach": 144,
+        "target": 1
+      },
+      {
+        "age": 52,
+        "thalach": 190,
+        "target": 0
+      },
+      {
+        "age": 43,
+        "thalach": 136,
+        "target": 1
+      },
+      {
+        "age": 62,
+        "thalach": 97,
+        "target": 1
+      },
+      {
+        "age": 41,
+        "thalach": 132,
+        "target": 0
+      },
+      {
+        "age": 58,
+        "thalach": 165,
+        "target": 0
+      },
+      {
+        "age": 35,
+        "thalach": 182,
+        "target": 0
+      },
+      {
+        "age": 63,
+        "thalach": 132,
+        "target": 1
+      },
+      {
+        "age": 65,
+        "thalach": 127,
+        "target": 1
+      },
+      {
+        "age": 48,
+        "thalach": 150,
+        "target": 1
+      },
+      {
+        "age": 63,
+        "thalach": 154,
+        "target": 1
+      },
+      {
+        "age": 51,
+        "thalach": 143,
+        "target": 0
+      },
+      {
+        "age": 55,
+        "thalach": 111,
+        "target": 1
+      },
+      {
+        "age": 65,
+        "thalach": 174,
+        "target": 1
+      },
+      {
+        "age": 45,
+        "thalach": 175,
+        "target": 0
+      },
+      {
+        "age": 56,
+        "thalach": 133,
+        "target": 1
+      },
+      {
+        "age": 54,
+        "thalach": 126,
+        "target": 1
+      },
+      {
+        "age": 44,
+        "thalach": 170,
+        "target": 0
+      },
+      {
+        "age": 62,
+        "thalach": 163,
+        "target": 0
+      },
+      {
+        "age": 54,
+        "thalach": 147,
+        "target": 0
+      },
+      {
+        "age": 51,
+        "thalach": 154,
+        "target": 0
+      },
+      {
+        "age": 29,
+        "thalach": 202,
+        "target": 0
+      },
+      {
+        "age": 51,
+        "thalach": 186,
+        "target": 0
+      },
+      {
+        "age": 43,
+        "thalach": 165,
+        "target": 0
+      },
+      {
+        "age": 55,
+        "thalach": 161,
+        "target": 0
+      },
+      {
+        "age": 70,
+        "thalach": 125,
+        "target": 1
+      },
+      {
+        "age": 62,
+        "thalach": 103,
+        "target": 1
+      },
+      {
+        "age": 35,
+        "thalach": 130,
+        "target": 1
+      },
+      {
+        "age": 51,
+        "thalach": 166,
+        "target": 0
+      },
+      {
+        "age": 59,
+        "thalach": 164,
+        "target": 0
+      },
+      {
+        "age": 59,
+        "thalach": 159,
+        "target": 1
+      },
+      {
+        "age": 52,
+        "thalach": 184,
+        "target": 0
+      },
+      {
+        "age": 64,
+        "thalach": 131,
+        "target": 1
+      },
+      {
+        "age": 58,
+        "thalach": 154,
+        "target": 0
+      },
+      {
+        "age": 47,
+        "thalach": 152,
+        "target": 1
+      },
+      {
+        "age": 57,
+        "thalach": 124,
+        "target": 1
+      },
+      {
+        "age": 41,
+        "thalach": 179,
+        "target": 0
+      },
+      {
+        "age": 45,
+        "thalach": 170,
+        "target": 0
+      },
+      {
+        "age": 60,
+        "thalach": 160,
+        "target": 0
+      },
+      {
+        "age": 52,
+        "thalach": 178,
+        "target": 0
+      },
+      {
+        "age": 42,
+        "thalach": 122,
+        "target": 0
+      },
+      {
+        "age": 67,
+        "thalach": 160,
+        "target": 0
+      },
+      {
+        "age": 55,
+        "thalach": 145,
+        "target": 1
+      },
+      {
+        "age": 64,
+        "thalach": 96,
+        "target": 1
+      },
+      {
+        "age": 70,
+        "thalach": 109,
+        "target": 1
+      },
+      {
+        "age": 51,
+        "thalach": 173,
+        "target": 1
+      },
+      {
+        "age": 58,
+        "thalach": 171,
+        "target": 1
+      },
+      {
+        "age": 60,
+        "thalach": 170,
+        "target": 1
+      },
+      {
+        "age": 68,
+        "thalach": 151,
+        "target": 0
+      },
+      {
+        "age": 46,
+        "thalach": 156,
+        "target": 0
+      },
+      {
+        "age": 77,
+        "thalach": 162,
+        "target": 1
+      },
+      {
+        "age": 54,
+        "thalach": 158,
+        "target": 0
+      },
+      {
+        "age": 58,
+        "thalach": 122,
+        "target": 0
+      },
+      {
+        "age": 48,
+        "thalach": 175,
+        "target": 0
+      },
+      {
+        "age": 57,
+        "thalach": 168,
+        "target": 0
+      },
+      {
+        "age": 52,
+        "thalach": 169,
+        "target": 0
+      },
+      {
+        "age": 54,
+        "thalach": 159,
+        "target": 0
+      },
+      {
+        "age": 35,
+        "thalach": 156,
+        "target": 1
+      },
+      {
+        "age": 45,
+        "thalach": 138,
+        "target": 0
+      },
+      {
+        "age": 70,
+        "thalach": 112,
+        "target": 1
+      },
+      {
+        "age": 53,
+        "thalach": 111,
+        "target": 0
+      },
+      {
+        "age": 59,
+        "thalach": 143,
+        "target": 1
+      },
+      {
+        "age": 62,
+        "thalach": 157,
+        "target": 0
+      },
+      {
+        "age": 64,
+        "thalach": 132,
+        "target": 1
+      },
+      {
+        "age": 57,
+        "thalach": 88,
+        "target": 1
+      },
+      {
+        "age": 52,
+        "thalach": 147,
+        "target": 0
+      },
+      {
+        "age": 56,
+        "thalach": 105,
+        "target": 1
+      },
+      {
+        "age": 43,
+        "thalach": 162,
+        "target": 0
+      },
+      {
+        "age": 53,
+        "thalach": 173,
+        "target": 0
+      },
+      {
+        "age": 48,
+        "thalach": 166,
+        "target": 1
+      },
+      {
+        "age": 56,
+        "thalach": 150,
+        "target": 1
+      },
+      {
+        "age": 42,
+        "thalach": 178,
+        "target": 0
+      },
+      {
+        "age": 59,
+        "thalach": 145,
+        "target": 0
+      },
+      {
+        "age": 60,
+        "thalach": 161,
+        "target": 1
+      },
+      {
+        "age": 63,
+        "thalach": 179,
+        "target": 0
+      },
+      {
+        "age": 42,
+        "thalach": 194,
+        "target": 0
+      },
+      {
+        "age": 66,
+        "thalach": 120,
+        "target": 1
+      },
+      {
+        "age": 54,
+        "thalach": 195,
+        "target": 1
+      },
+      {
+        "age": 69,
+        "thalach": 146,
+        "target": 1
+      },
+      {
+        "age": 50,
+        "thalach": 163,
+        "target": 0
+      },
+      {
+        "age": 51,
+        "thalach": 122,
+        "target": 1
+      },
+      {
+        "age": 43,
+        "thalach": 143,
+        "target": 1
+      },
+      {
+        "age": 62,
+        "thalach": 106,
+        "target": 1
+      },
+      {
+        "age": 68,
+        "thalach": 115,
+        "target": 0
+      },
+      {
+        "age": 67,
+        "thalach": 125,
+        "target": 1
+      },
+      {
+        "age": 69,
+        "thalach": 131,
+        "target": 0
+      },
+      {
+        "age": 45,
+        "thalach": 152,
+        "target": 0
+      },
+      {
+        "age": 50,
+        "thalach": 162,
+        "target": 0
+      },
+      {
+        "age": 59,
+        "thalach": 125,
+        "target": 1
+      },
+      {
+        "age": 50,
+        "thalach": 159,
+        "target": 0
+      },
+      {
+        "age": 64,
+        "thalach": 154,
+        "target": 0
+      },
+      {
+        "age": 57,
+        "thalach": 173,
+        "target": 0
+      },
+      {
+        "age": 64,
+        "thalach": 133,
+        "target": 0
+      },
+      {
+        "age": 43,
+        "thalach": 161,
+        "target": 0
+      },
+      {
+        "age": 45,
+        "thalach": 147,
+        "target": 1
+      },
+      {
+        "age": 58,
+        "thalach": 130,
+        "target": 1
+      },
+      {
+        "age": 50,
+        "thalach": 126,
+        "target": 1
+      },
+      {
+        "age": 55,
+        "thalach": 155,
+        "target": 0
+      },
+      {
+        "age": 62,
+        "thalach": 154,
+        "target": 1
+      },
+      {
+        "age": 37,
+        "thalach": 170,
+        "target": 0
+      },
+      {
+        "age": 38,
+        "thalach": 182,
+        "target": 1
+      },
+      {
+        "age": 41,
+        "thalach": 168,
+        "target": 0
+      },
+      {
+        "age": 66,
+        "thalach": 165,
+        "target": 1
+      },
+      {
+        "age": 52,
+        "thalach": 160,
+        "target": 1
+      },
+      {
+        "age": 56,
+        "thalach": 162,
+        "target": 0
+      },
+      {
+        "age": 46,
+        "thalach": 172,
+        "target": 0
+      },
+      {
+        "age": 46,
+        "thalach": 152,
+        "target": 0
+      },
+      {
+        "age": 64,
+        "thalach": 122,
+        "target": 0
+      },
+      {
+        "age": 59,
+        "thalach": 182,
+        "target": 0
+      },
+      {
+        "age": 41,
+        "thalach": 172,
+        "target": 0
+      },
+      {
+        "age": 54,
+        "thalach": 167,
+        "target": 0
+      },
+      {
+        "age": 39,
+        "thalach": 179,
+        "target": 0
+      },
+      {
+        "age": 53,
+        "thalach": 95,
+        "target": 1
+      },
+      {
+        "age": 63,
+        "thalach": 169,
+        "target": 1
+      },
+      {
+        "age": 34,
+        "thalach": 192,
+        "target": 0
+      },
+      {
+        "age": 47,
+        "thalach": 143,
+        "target": 0
+      },
+      {
+        "age": 67,
+        "thalach": 172,
+        "target": 0
+      },
+      {
+        "age": 54,
+        "thalach": 108,
+        "target": 1
+      },
+      {
+        "age": 66,
+        "thalach": 132,
+        "target": 1
+      },
+      {
+        "age": 52,
+        "thalach": 169,
+        "target": 0
+      },
+      {
+        "age": 55,
+        "thalach": 117,
+        "target": 1
+      },
+      {
+        "age": 49,
+        "thalach": 126,
+        "target": 1
+      },
+      {
+        "age": 74,
+        "thalach": 121,
+        "target": 0
+      },
+      {
+        "age": 54,
+        "thalach": 163,
+        "target": 0
+      },
+      {
+        "age": 54,
+        "thalach": 116,
+        "target": 1
+      },
+      {
+        "age": 56,
+        "thalach": 103,
+        "target": 1
+      },
+      {
+        "age": 46,
+        "thalach": 144,
+        "target": 1
+      },
+      {
+        "age": 49,
+        "thalach": 162,
+        "target": 0
+      },
+      {
+        "age": 42,
+        "thalach": 162,
+        "target": 0
+      },
+      {
+        "age": 41,
+        "thalach": 153,
+        "target": 0
+      },
+      {
+        "age": 41,
+        "thalach": 163,
+        "target": 0
+      },
+      {
+        "age": 49,
+        "thalach": 163,
+        "target": 0
+      },
+      {
+        "age": 61,
+        "thalach": 145,
+        "target": 1
+      },
+      {
+        "age": 60,
+        "thalach": 96,
+        "target": 0
+      },
+      {
+        "age": 67,
+        "thalach": 71,
+        "target": 1
+      },
+      {
+        "age": 58,
+        "thalach": 156,
+        "target": 1
+      },
+      {
+        "age": 47,
+        "thalach": 118,
+        "target": 1
+      },
+      {
+        "age": 52,
+        "thalach": 168,
+        "target": 1
+      },
+      {
+        "age": 62,
+        "thalach": 140,
+        "target": 0
+      },
+      {
+        "age": 57,
+        "thalach": 126,
+        "target": 0
+      },
+      {
+        "age": 58,
+        "thalach": 105,
+        "target": 1
+      },
+      {
+        "age": 64,
+        "thalach": 105,
+        "target": 0
+      },
+      {
+        "age": 51,
+        "thalach": 157,
+        "target": 0
+      },
+      {
+        "age": 43,
+        "thalach": 181,
+        "target": 0
+      },
+      {
+        "age": 42,
+        "thalach": 173,
+        "target": 0
+      },
+      {
+        "age": 67,
+        "thalach": 142,
+        "target": 0
+      },
+      {
+        "age": 76,
+        "thalach": 116,
+        "target": 0
+      },
+      {
+        "age": 70,
+        "thalach": 143,
+        "target": 0
+      },
+      {
+        "age": 57,
+        "thalach": 141,
+        "target": 1
+      },
+      {
+        "age": 44,
+        "thalach": 149,
+        "target": 0
+      },
+      {
+        "age": 58,
+        "thalach": 152,
+        "target": 1
+      },
+      {
+        "age": 60,
+        "thalach": 171,
+        "target": 0
+      },
+      {
+        "age": 44,
+        "thalach": 169,
+        "target": 0
+      },
+      {
+        "age": 61,
+        "thalach": 125,
+        "target": 1
+      },
+      {
+        "age": 42,
+        "thalach": 125,
+        "target": 1
+      },
+      {
+        "age": 52,
+        "thalach": 156,
+        "target": 1
+      },
+      {
+        "age": 59,
+        "thalach": 134,
+        "target": 1
+      },
+      {
+        "age": 40,
+        "thalach": 181,
+        "target": 1
+      },
+      {
+        "age": 42,
+        "thalach": 150,
+        "target": 0
+      },
+      {
+        "age": 61,
+        "thalach": 138,
+        "target": 1
+      },
+      {
+        "age": 66,
+        "thalach": 138,
+        "target": 0
+      },
+      {
+        "age": 46,
+        "thalach": 120,
+        "target": 1
+      },
+      {
+        "age": 71,
+        "thalach": 125,
+        "target": 0
+      },
+      {
+        "age": 59,
+        "thalach": 162,
+        "target": 1
+      },
+      {
+        "age": 64,
+        "thalach": 155,
+        "target": 0
+      },
+      {
+        "age": 66,
+        "thalach": 152,
+        "target": 0
+      },
+      {
+        "age": 39,
+        "thalach": 152,
+        "target": 0
+      },
+      {
+        "age": 57,
+        "thalach": 164,
+        "target": 1
+      },
+      {
+        "age": 58,
+        "thalach": 131,
+        "target": 0
+      },
+      {
+        "age": 57,
+        "thalach": 143,
+        "target": 1
+      },
+      {
+        "age": 47,
+        "thalach": 179,
+        "target": 0
+      },
+      {
+        "age": 55,
+        "thalach": 130,
+        "target": 1
+      },
+      {
+        "age": 35,
+        "thalach": 174,
+        "target": 0
+      },
+      {
+        "age": 61,
+        "thalach": 161,
+        "target": 1
+      },
+      {
+        "age": 58,
+        "thalach": 140,
+        "target": 1
+      },
+      {
+        "age": 58,
+        "thalach": 146,
+        "target": 1
+      },
+      {
+        "age": 58,
+        "thalach": 144,
+        "target": 0
+      },
+      {
+        "age": 56,
+        "thalach": 163,
+        "target": 0
+      },
+      {
+        "age": 56,
+        "thalach": 169,
+        "target": 0
+      },
+      {
+        "age": 67,
+        "thalach": 150,
+        "target": 1
+      },
+      {
+        "age": 55,
+        "thalach": 166,
+        "target": 0
+      },
+      {
+        "age": 44,
+        "thalach": 144,
+        "target": 1
+      },
+      {
+        "age": 63,
+        "thalach": 144,
+        "target": 1
+      },
+      {
+        "age": 63,
+        "thalach": 136,
+        "target": 1
+      },
+      {
+        "age": 41,
+        "thalach": 182,
+        "target": 0
+      },
+      {
+        "age": 59,
+        "thalach": 90,
+        "target": 1
+      },
+      {
+        "age": 57,
+        "thalach": 123,
+        "target": 1
+      },
+      {
+        "age": 45,
+        "thalach": 132,
+        "target": 1
+      },
+      {
+        "age": 68,
+        "thalach": 141,
+        "target": 1
+      },
+      {
+        "age": 57,
+        "thalach": 115,
+        "target": 1
+      },
+      {
+        "age": 57,
+        "thalach": 174,
+        "target": 1
+      },
+      {
+        "age": 38,
+        "thalach": 173,
+        "target": 0
+      }
+    ],
+    "scatter_chol_trestbps": [
+      {
+        "chol": 233,
+        "trestbps": 145,
+        "target": 0
+      },
+      {
+        "chol": 286,
+        "trestbps": 160,
+        "target": 1
+      },
+      {
+        "chol": 229,
+        "trestbps": 120,
+        "target": 1
+      },
+      {
+        "chol": 250,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 204,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 236,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 268,
+        "trestbps": 140,
+        "target": 1
+      },
+      {
+        "chol": 354,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 254,
+        "trestbps": 130,
+        "target": 1
+      },
+      {
+        "chol": 203,
+        "trestbps": 140,
+        "target": 1
+      },
+      {
+        "chol": 192,
+        "trestbps": 140,
+        "target": 0
+      },
+      {
+        "chol": 294,
+        "trestbps": 140,
+        "target": 0
+      },
+      {
+        "chol": 256,
+        "trestbps": 130,
+        "target": 1
+      },
+      {
+        "chol": 263,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 199,
+        "trestbps": 172,
+        "target": 0
+      },
+      {
+        "chol": 168,
+        "trestbps": 150,
+        "target": 0
+      },
+      {
+        "chol": 229,
+        "trestbps": 110,
+        "target": 1
+      },
+      {
+        "chol": 239,
+        "trestbps": 140,
+        "target": 0
+      },
+      {
+        "chol": 275,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 266,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 211,
+        "trestbps": 110,
+        "target": 0
+      },
+      {
+        "chol": 283,
+        "trestbps": 150,
+        "target": 0
+      },
+      {
+        "chol": 284,
+        "trestbps": 120,
+        "target": 1
+      },
+      {
+        "chol": 224,
+        "trestbps": 132,
+        "target": 1
+      },
+      {
+        "chol": 206,
+        "trestbps": 130,
+        "target": 1
+      },
+      {
+        "chol": 219,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 340,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 226,
+        "trestbps": 150,
+        "target": 0
+      },
+      {
+        "chol": 247,
+        "trestbps": 150,
+        "target": 0
+      },
+      {
+        "chol": 167,
+        "trestbps": 110,
+        "target": 1
+      },
+      {
+        "chol": 239,
+        "trestbps": 140,
+        "target": 0
+      },
+      {
+        "chol": 230,
+        "trestbps": 117,
+        "target": 1
+      },
+      {
+        "chol": 335,
+        "trestbps": 140,
+        "target": 1
+      },
+      {
+        "chol": 234,
+        "trestbps": 135,
+        "target": 0
+      },
+      {
+        "chol": 233,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 226,
+        "trestbps": 140,
+        "target": 0
+      },
+      {
+        "chol": 177,
+        "trestbps": 120,
+        "target": 1
+      },
+      {
+        "chol": 276,
+        "trestbps": 150,
+        "target": 1
+      },
+      {
+        "chol": 353,
+        "trestbps": 132,
+        "target": 1
+      },
+      {
+        "chol": 243,
+        "trestbps": 150,
+        "target": 0
+      },
+      {
+        "chol": 225,
+        "trestbps": 150,
+        "target": 1
+      },
+      {
+        "chol": 199,
+        "trestbps": 140,
+        "target": 0
+      },
+      {
+        "chol": 302,
+        "trestbps": 160,
+        "target": 0
+      },
+      {
+        "chol": 212,
+        "trestbps": 150,
+        "target": 0
+      },
+      {
+        "chol": 330,
+        "trestbps": 130,
+        "target": 1
+      },
+      {
+        "chol": 230,
+        "trestbps": 112,
+        "target": 1
+      },
+      {
+        "chol": 175,
+        "trestbps": 110,
+        "target": 0
+      },
+      {
+        "chol": 243,
+        "trestbps": 150,
+        "target": 1
+      },
+      {
+        "chol": 417,
+        "trestbps": 140,
+        "target": 0
+      },
+      {
+        "chol": 197,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 198,
+        "trestbps": 105,
+        "target": 0
+      },
+      {
+        "chol": 177,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 290,
+        "trestbps": 112,
+        "target": 1
+      },
+      {
+        "chol": 219,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 253,
+        "trestbps": 130,
+        "target": 1
+      },
+      {
+        "chol": 266,
+        "trestbps": 124,
+        "target": 1
+      },
+      {
+        "chol": 233,
+        "trestbps": 140,
+        "target": 1
+      },
+      {
+        "chol": 172,
+        "trestbps": 110,
+        "target": 1
+      },
+      {
+        "chol": 273,
+        "trestbps": 125,
+        "target": 0
+      },
+      {
+        "chol": 213,
+        "trestbps": 125,
+        "target": 0
+      },
+      {
+        "chol": 305,
+        "trestbps": 130,
+        "target": 1
+      },
+      {
+        "chol": 177,
+        "trestbps": 142,
+        "target": 0
+      },
+      {
+        "chol": 216,
+        "trestbps": 128,
+        "target": 1
+      },
+      {
+        "chol": 304,
+        "trestbps": 135,
+        "target": 0
+      },
+      {
+        "chol": 188,
+        "trestbps": 120,
+        "target": 1
+      },
+      {
+        "chol": 282,
+        "trestbps": 145,
+        "target": 1
+      },
+      {
+        "chol": 185,
+        "trestbps": 140,
+        "target": 1
+      },
+      {
+        "chol": 232,
+        "trestbps": 150,
+        "target": 0
+      },
+      {
+        "chol": 326,
+        "trestbps": 170,
+        "target": 1
+      },
+      {
+        "chol": 231,
+        "trestbps": 150,
+        "target": 1
+      },
+      {
+        "chol": 269,
+        "trestbps": 155,
+        "target": 0
+      },
+      {
+        "chol": 254,
+        "trestbps": 125,
+        "target": 1
+      },
+      {
+        "chol": 267,
+        "trestbps": 120,
+        "target": 1
+      },
+      {
+        "chol": 248,
+        "trestbps": 110,
+        "target": 1
+      },
+      {
+        "chol": 197,
+        "trestbps": 110,
+        "target": 1
+      },
+      {
+        "chol": 360,
+        "trestbps": 160,
+        "target": 0
+      },
+      {
+        "chol": 258,
+        "trestbps": 125,
+        "target": 1
+      },
+      {
+        "chol": 308,
+        "trestbps": 140,
+        "target": 0
+      },
+      {
+        "chol": 245,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 270,
+        "trestbps": 150,
+        "target": 1
+      },
+      {
+        "chol": 208,
+        "trestbps": 104,
+        "target": 0
+      },
+      {
+        "chol": 264,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 321,
+        "trestbps": 140,
+        "target": 0
+      },
+      {
+        "chol": 274,
+        "trestbps": 180,
+        "target": 1
+      },
+      {
+        "chol": 325,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 235,
+        "trestbps": 140,
+        "target": 0
+      },
+      {
+        "chol": 257,
+        "trestbps": 138,
+        "target": 0
+      },
+      {
+        "chol": 216,
+        "trestbps": 128,
+        "target": 0
+      },
+      {
+        "chol": 234,
+        "trestbps": 138,
+        "target": 0
+      },
+      {
+        "chol": 256,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 302,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 164,
+        "trestbps": 160,
+        "target": 1
+      },
+      {
+        "chol": 231,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 141,
+        "trestbps": 108,
+        "target": 0
+      },
+      {
+        "chol": 252,
+        "trestbps": 135,
+        "target": 0
+      },
+      {
+        "chol": 255,
+        "trestbps": 128,
+        "target": 1
+      },
+      {
+        "chol": 239,
+        "trestbps": 110,
+        "target": 1
+      },
+      {
+        "chol": 258,
+        "trestbps": 150,
+        "target": 1
+      },
+      {
+        "chol": 201,
+        "trestbps": 134,
+        "target": 0
+      },
+      {
+        "chol": 222,
+        "trestbps": 122,
+        "target": 0
+      },
+      {
+        "chol": 260,
+        "trestbps": 115,
+        "target": 0
+      },
+      {
+        "chol": 182,
+        "trestbps": 118,
+        "target": 0
+      },
+      {
+        "chol": 303,
+        "trestbps": 128,
+        "target": 0
+      },
+      {
+        "chol": 265,
+        "trestbps": 110,
+        "target": 0
+      },
+      {
+        "chol": 188,
+        "trestbps": 120,
+        "target": 1
+      },
+      {
+        "chol": 309,
+        "trestbps": 108,
+        "target": 0
+      },
+      {
+        "chol": 177,
+        "trestbps": 140,
+        "target": 1
+      },
+      {
+        "chol": 229,
+        "trestbps": 128,
+        "target": 1
+      },
+      {
+        "chol": 260,
+        "trestbps": 120,
+        "target": 1
+      },
+      {
+        "chol": 219,
+        "trestbps": 118,
+        "target": 1
+      },
+      {
+        "chol": 307,
+        "trestbps": 145,
+        "target": 1
+      },
+      {
+        "chol": 249,
+        "trestbps": 125,
+        "target": 1
+      },
+      {
+        "chol": 186,
+        "trestbps": 118,
+        "target": 0
+      },
+      {
+        "chol": 341,
+        "trestbps": 132,
+        "target": 1
+      },
+      {
+        "chol": 263,
+        "trestbps": 130,
+        "target": 1
+      },
+      {
+        "chol": 203,
+        "trestbps": 135,
+        "target": 0
+      },
+      {
+        "chol": 211,
+        "trestbps": 140,
+        "target": 0
+      },
+      {
+        "chol": 183,
+        "trestbps": 138,
+        "target": 0
+      },
+      {
+        "chol": 330,
+        "trestbps": 130,
+        "target": 1
+      },
+      {
+        "chol": 254,
+        "trestbps": 135,
+        "target": 1
+      },
+      {
+        "chol": 256,
+        "trestbps": 130,
+        "target": 1
+      },
+      {
+        "chol": 407,
+        "trestbps": 150,
+        "target": 1
+      },
+      {
+        "chol": 222,
+        "trestbps": 100,
+        "target": 0
+      },
+      {
+        "chol": 217,
+        "trestbps": 140,
+        "target": 1
+      },
+      {
+        "chol": 282,
+        "trestbps": 138,
+        "target": 1
+      },
+      {
+        "chol": 234,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 288,
+        "trestbps": 200,
+        "target": 1
+      },
+      {
+        "chol": 239,
+        "trestbps": 110,
+        "target": 1
+      },
+      {
+        "chol": 220,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 209,
+        "trestbps": 124,
+        "target": 0
+      },
+      {
+        "chol": 258,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 227,
+        "trestbps": 94,
+        "target": 0
+      },
+      {
+        "chol": 204,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 261,
+        "trestbps": 140,
+        "target": 0
+      },
+      {
+        "chol": 213,
+        "trestbps": 122,
+        "target": 0
+      },
+      {
+        "chol": 250,
+        "trestbps": 135,
+        "target": 0
+      },
+      {
+        "chol": 174,
+        "trestbps": 145,
+        "target": 1
+      },
+      {
+        "chol": 281,
+        "trestbps": 120,
+        "target": 1
+      },
+      {
+        "chol": 198,
+        "trestbps": 120,
+        "target": 1
+      },
+      {
+        "chol": 245,
+        "trestbps": 125,
+        "target": 0
+      },
+      {
+        "chol": 221,
+        "trestbps": 140,
+        "target": 0
+      },
+      {
+        "chol": 288,
+        "trestbps": 170,
+        "target": 1
+      },
+      {
+        "chol": 205,
+        "trestbps": 128,
+        "target": 0
+      },
+      {
+        "chol": 309,
+        "trestbps": 125,
+        "target": 1
+      },
+      {
+        "chol": 240,
+        "trestbps": 105,
+        "target": 0
+      },
+      {
+        "chol": 243,
+        "trestbps": 108,
+        "target": 1
+      },
+      {
+        "chol": 289,
+        "trestbps": 165,
+        "target": 1
+      },
+      {
+        "chol": 250,
+        "trestbps": 112,
+        "target": 0
+      },
+      {
+        "chol": 308,
+        "trestbps": 128,
+        "target": 0
+      },
+      {
+        "chol": 318,
+        "trestbps": 102,
+        "target": 0
+      },
+      {
+        "chol": 298,
+        "trestbps": 152,
+        "target": 0
+      },
+      {
+        "chol": 265,
+        "trestbps": 102,
+        "target": 0
+      },
+      {
+        "chol": 564,
+        "trestbps": 115,
+        "target": 0
+      },
+      {
+        "chol": 289,
+        "trestbps": 160,
+        "target": 1
+      },
+      {
+        "chol": 246,
+        "trestbps": 120,
+        "target": 1
+      },
+      {
+        "chol": 322,
+        "trestbps": 130,
+        "target": 1
+      },
+      {
+        "chol": 299,
+        "trestbps": 140,
+        "target": 1
+      },
+      {
+        "chol": 300,
+        "trestbps": 125,
+        "target": 1
+      },
+      {
+        "chol": 293,
+        "trestbps": 140,
+        "target": 1
+      },
+      {
+        "chol": 277,
+        "trestbps": 118,
+        "target": 0
+      },
+      {
+        "chol": 197,
+        "trestbps": 101,
+        "target": 0
+      },
+      {
+        "chol": 304,
+        "trestbps": 125,
+        "target": 1
+      },
+      {
+        "chol": 214,
+        "trestbps": 110,
+        "target": 0
+      },
+      {
+        "chol": 248,
+        "trestbps": 100,
+        "target": 0
+      },
+      {
+        "chol": 255,
+        "trestbps": 124,
+        "target": 0
+      },
+      {
+        "chol": 207,
+        "trestbps": 132,
+        "target": 0
+      },
+      {
+        "chol": 223,
+        "trestbps": 138,
+        "target": 0
+      },
+      {
+        "chol": 288,
+        "trestbps": 132,
+        "target": 0
+      },
+      {
+        "chol": 282,
+        "trestbps": 126,
+        "target": 1
+      },
+      {
+        "chol": 160,
+        "trestbps": 112,
+        "target": 0
+      },
+      {
+        "chol": 269,
+        "trestbps": 160,
+        "target": 1
+      },
+      {
+        "chol": 226,
+        "trestbps": 142,
+        "target": 0
+      },
+      {
+        "chol": 249,
+        "trestbps": 174,
+        "target": 1
+      },
+      {
+        "chol": 394,
+        "trestbps": 140,
+        "target": 0
+      },
+      {
+        "chol": 212,
+        "trestbps": 145,
+        "target": 1
+      },
+      {
+        "chol": 274,
+        "trestbps": 152,
+        "target": 1
+      },
+      {
+        "chol": 233,
+        "trestbps": 108,
+        "target": 0
+      },
+      {
+        "chol": 184,
+        "trestbps": 132,
+        "target": 1
+      },
+      {
+        "chol": 315,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 246,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 274,
+        "trestbps": 124,
+        "target": 1
+      },
+      {
+        "chol": 409,
+        "trestbps": 134,
+        "target": 1
+      },
+      {
+        "chol": 244,
+        "trestbps": 148,
+        "target": 0
+      },
+      {
+        "chol": 270,
+        "trestbps": 178,
+        "target": 0
+      },
+      {
+        "chol": 305,
+        "trestbps": 158,
+        "target": 1
+      },
+      {
+        "chol": 195,
+        "trestbps": 140,
+        "target": 0
+      },
+      {
+        "chol": 240,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 246,
+        "trestbps": 160,
+        "target": 1
+      },
+      {
+        "chol": 283,
+        "trestbps": 192,
+        "target": 1
+      },
+      {
+        "chol": 254,
+        "trestbps": 140,
+        "target": 1
+      },
+      {
+        "chol": 196,
+        "trestbps": 129,
+        "target": 0
+      },
+      {
+        "chol": 298,
+        "trestbps": 140,
+        "target": 1
+      },
+      {
+        "chol": 247,
+        "trestbps": 132,
+        "target": 1
+      },
+      {
+        "chol": 294,
+        "trestbps": 138,
+        "target": 1
+      },
+      {
+        "chol": 211,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 299,
+        "trestbps": 100,
+        "target": 1
+      },
+      {
+        "chol": 234,
+        "trestbps": 160,
+        "target": 0
+      },
+      {
+        "chol": 236,
+        "trestbps": 138,
+        "target": 0
+      },
+      {
+        "chol": 244,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 273,
+        "trestbps": 160,
+        "target": 1
+      },
+      {
+        "chol": 254,
+        "trestbps": 110,
+        "target": 0
+      },
+      {
+        "chol": 325,
+        "trestbps": 180,
+        "target": 0
+      },
+      {
+        "chol": 126,
+        "trestbps": 150,
+        "target": 0
+      },
+      {
+        "chol": 313,
+        "trestbps": 140,
+        "target": 0
+      },
+      {
+        "chol": 211,
+        "trestbps": 110,
+        "target": 0
+      },
+      {
+        "chol": 309,
+        "trestbps": 142,
+        "target": 1
+      },
+      {
+        "chol": 259,
+        "trestbps": 128,
+        "target": 1
+      },
+      {
+        "chol": 200,
+        "trestbps": 144,
+        "target": 1
+      },
+      {
+        "chol": 262,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 244,
+        "trestbps": 150,
+        "target": 1
+      },
+      {
+        "chol": 215,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 231,
+        "trestbps": 120,
+        "target": 1
+      },
+      {
+        "chol": 214,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 228,
+        "trestbps": 178,
+        "target": 1
+      },
+      {
+        "chol": 230,
+        "trestbps": 112,
+        "target": 1
+      },
+      {
+        "chol": 193,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 204,
+        "trestbps": 105,
+        "target": 0
+      },
+      {
+        "chol": 243,
+        "trestbps": 138,
+        "target": 0
+      },
+      {
+        "chol": 303,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 271,
+        "trestbps": 138,
+        "target": 0
+      },
+      {
+        "chol": 268,
+        "trestbps": 112,
+        "target": 0
+      },
+      {
+        "chol": 267,
+        "trestbps": 108,
+        "target": 0
+      },
+      {
+        "chol": 199,
+        "trestbps": 94,
+        "target": 0
+      },
+      {
+        "chol": 282,
+        "trestbps": 123,
+        "target": 1
+      },
+      {
+        "chol": 269,
+        "trestbps": 108,
+        "target": 1
+      },
+      {
+        "chol": 210,
+        "trestbps": 118,
+        "target": 0
+      },
+      {
+        "chol": 204,
+        "trestbps": 112,
+        "target": 0
+      },
+      {
+        "chol": 277,
+        "trestbps": 152,
+        "target": 0
+      },
+      {
+        "chol": 206,
+        "trestbps": 110,
+        "target": 1
+      },
+      {
+        "chol": 212,
+        "trestbps": 112,
+        "target": 1
+      },
+      {
+        "chol": 196,
+        "trestbps": 136,
+        "target": 0
+      },
+      {
+        "chol": 327,
+        "trestbps": 180,
+        "target": 1
+      },
+      {
+        "chol": 149,
+        "trestbps": 118,
+        "target": 1
+      },
+      {
+        "chol": 269,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 201,
+        "trestbps": 160,
+        "target": 0
+      },
+      {
+        "chol": 286,
+        "trestbps": 122,
+        "target": 1
+      },
+      {
+        "chol": 283,
+        "trestbps": 130,
+        "target": 1
+      },
+      {
+        "chol": 249,
+        "trestbps": 120,
+        "target": 1
+      },
+      {
+        "chol": 271,
+        "trestbps": 134,
+        "target": 0
+      },
+      {
+        "chol": 295,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 235,
+        "trestbps": 110,
+        "target": 0
+      },
+      {
+        "chol": 306,
+        "trestbps": 126,
+        "target": 0
+      },
+      {
+        "chol": 269,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 234,
+        "trestbps": 134,
+        "target": 1
+      },
+      {
+        "chol": 178,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 237,
+        "trestbps": 120,
+        "target": 1
+      },
+      {
+        "chol": 234,
+        "trestbps": 100,
+        "target": 1
+      },
+      {
+        "chol": 275,
+        "trestbps": 110,
+        "target": 1
+      },
+      {
+        "chol": 212,
+        "trestbps": 125,
+        "target": 1
+      },
+      {
+        "chol": 208,
+        "trestbps": 128,
+        "target": 0
+      },
+      {
+        "chol": 201,
+        "trestbps": 110,
+        "target": 0
+      },
+      {
+        "chol": 218,
+        "trestbps": 146,
+        "target": 1
+      },
+      {
+        "chol": 263,
+        "trestbps": 128,
+        "target": 0
+      },
+      {
+        "chol": 295,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 303,
+        "trestbps": 115,
+        "target": 0
+      },
+      {
+        "chol": 209,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 223,
+        "trestbps": 106,
+        "target": 0
+      },
+      {
+        "chol": 197,
+        "trestbps": 140,
+        "target": 0
+      },
+      {
+        "chol": 245,
+        "trestbps": 156,
+        "target": 0
+      },
+      {
+        "chol": 261,
+        "trestbps": 124,
+        "target": 1
+      },
+      {
+        "chol": 242,
+        "trestbps": 118,
+        "target": 0
+      },
+      {
+        "chol": 319,
+        "trestbps": 136,
+        "target": 1
+      },
+      {
+        "chol": 240,
+        "trestbps": 150,
+        "target": 0
+      },
+      {
+        "chol": 226,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 166,
+        "trestbps": 138,
+        "target": 1
+      },
+      {
+        "chol": 315,
+        "trestbps": 136,
+        "target": 1
+      },
+      {
+        "chol": 204,
+        "trestbps": 128,
+        "target": 1
+      },
+      {
+        "chol": 218,
+        "trestbps": 126,
+        "target": 1
+      },
+      {
+        "chol": 223,
+        "trestbps": 152,
+        "target": 1
+      },
+      {
+        "chol": 180,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 207,
+        "trestbps": 140,
+        "target": 1
+      },
+      {
+        "chol": 228,
+        "trestbps": 160,
+        "target": 0
+      },
+      {
+        "chol": 311,
+        "trestbps": 140,
+        "target": 1
+      },
+      {
+        "chol": 149,
+        "trestbps": 112,
+        "target": 0
+      },
+      {
+        "chol": 204,
+        "trestbps": 134,
+        "target": 1
+      },
+      {
+        "chol": 227,
+        "trestbps": 170,
+        "target": 0
+      },
+      {
+        "chol": 278,
+        "trestbps": 146,
+        "target": 0
+      },
+      {
+        "chol": 220,
+        "trestbps": 138,
+        "target": 0
+      },
+      {
+        "chol": 232,
+        "trestbps": 154,
+        "target": 1
+      },
+      {
+        "chol": 197,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 335,
+        "trestbps": 110,
+        "target": 1
+      },
+      {
+        "chol": 253,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 205,
+        "trestbps": 128,
+        "target": 1
+      },
+      {
+        "chol": 192,
+        "trestbps": 122,
+        "target": 0
+      },
+      {
+        "chol": 203,
+        "trestbps": 148,
+        "target": 1
+      },
+      {
+        "chol": 318,
+        "trestbps": 114,
+        "target": 1
+      },
+      {
+        "chol": 225,
+        "trestbps": 170,
+        "target": 1
+      },
+      {
+        "chol": 220,
+        "trestbps": 125,
+        "target": 0
+      },
+      {
+        "chol": 221,
+        "trestbps": 130,
+        "target": 0
+      },
+      {
+        "chol": 240,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 212,
+        "trestbps": 152,
+        "target": 1
+      },
+      {
+        "chol": 342,
+        "trestbps": 132,
+        "target": 0
+      },
+      {
+        "chol": 169,
+        "trestbps": 120,
+        "target": 1
+      },
+      {
+        "chol": 187,
+        "trestbps": 140,
+        "target": 1
+      },
+      {
+        "chol": 197,
+        "trestbps": 124,
+        "target": 1
+      },
+      {
+        "chol": 157,
+        "trestbps": 120,
+        "target": 0
+      },
+      {
+        "chol": 176,
+        "trestbps": 164,
+        "target": 1
+      },
+      {
+        "chol": 241,
+        "trestbps": 140,
+        "target": 1
+      },
+      {
+        "chol": 264,
+        "trestbps": 110,
+        "target": 1
+      },
+      {
+        "chol": 193,
+        "trestbps": 144,
+        "target": 1
+      },
+      {
+        "chol": 131,
+        "trestbps": 130,
+        "target": 1
+      },
+      {
+        "chol": 236,
+        "trestbps": 130,
+        "target": 1
+      },
+      {
+        "chol": 175,
+        "trestbps": 138,
+        "target": 0
+      }
+    ],
+    "healthy_means": {
+      "age": 52.59,
+      "sex": 0.56,
+      "cp": 1.79,
+      "trestbps": 129.25,
+      "chol": 242.64,
+      "fbs": 0.14,
+      "restecg": 0.84,
+      "thalach": 158.38,
+      "exang": 0.14,
+      "oldpeak": 0.59,
+      "slope": 0.41,
+      "ca": 0.27,
+      "thal": 1.38,
+      "target": 0.0
+    },
+    "disease_means": {
+      "age": 56.63,
+      "sex": 0.82,
+      "cp": 2.59,
+      "trestbps": 134.57,
+      "chol": 251.47,
+      "fbs": 0.16,
+      "restecg": 1.17,
+      "thalach": 139.26,
+      "exang": 0.55,
+      "oldpeak": 1.57,
+      "slope": 0.83,
+      "ca": 1.13,
+      "thal": 2.37,
+      "target": 1.0
+    },
+    "feature_names": [
+      "age",
+      "sex",
+      "cp",
+      "trestbps",
+      "chol",
+      "fbs",
+      "restecg",
+      "thalach",
+      "exang",
+      "oldpeak",
+      "slope",
+      "ca",
+      "thal"
+    ],
+    "total_samples": 303,
+    "disease_total": 139,
+    "healthy_total": 164
+  }
+}

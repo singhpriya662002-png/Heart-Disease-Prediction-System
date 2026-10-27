@@ -1,0 +1,24 @@
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE configs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables
+.env
